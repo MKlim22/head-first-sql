@@ -1,7 +1,7 @@
 -- Lesson 3: NOT NULL Constraint and insert Statement
 
-CREATE DATABASE IF NOT EXISTS greg_list;
-USE greg_list;
+CREATE DATABASE IF NOT EXISTS gregs_list;
+USE gregs_list;
 DROP TABLE IF EXISTS my_contacts;
 
 CREATE TABLE my_contacts
