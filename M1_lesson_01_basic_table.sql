@@ -1,7 +1,7 @@
 -- Lesson 1: Basic table creation
 -- This skript can be run multiple times without errors
 
-CREATE DATABASE IF EXISTS gregs_list;
+CREATE DATABASE IF NOT EXISTS gregs_list;
 USE gregs_list;
 
 -- Remove table if it already exists
