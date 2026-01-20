@@ -10,6 +10,6 @@
 ## Files
 
 - `easy_drinks.sql` – creates the `easy_drinks` table and inserts sample data
-
-The exercise uses a simple drinks dataset that is later queried using
-`SELECT` and `WHERE` statements.
+    The exercise uses a simple drinks dataset that is later queried using
+    `SELECT` and `WHERE` statements.
+- `queries.sql` - example `SELECT` queries using `WHERE` clauses and comparison operators.

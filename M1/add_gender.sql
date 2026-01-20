@@ -1,5 +1,3 @@
--- Lesson 02: Adding a new column to the contacts table
-
 USE gregs_list;
 DROP TABLE IF EXISTS my_contacts;
 
