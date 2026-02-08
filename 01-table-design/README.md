@@ -1,27 +1,20 @@
-# Head First SQL - Modul 1
+# 01 - Table Design (Basics)
 
-This repository contains my practise work based on the book 'Head First SQL'.
-Modul 1 focuses on the basics of SQL table creation and simple table modifications.
+Practise notes and SQL scripts focused on creating simple tables and applying basic constraints.
 
-## Lesson 1: Basic Table Creation
+## What's inside
 
-- Creates the 'gregs_list' database (if it does not exist).
-- Creates the 'my_contacts' table.
-- Uses basic data types such as 'VARCHAR' AND 'DATE'.
-- Demonstrates how to safely drop and recreate tables to avoid errors when running scripts multiple times.
-- Verifies table creation using 'SHOW TABLES' and 'DESC'.
+- Creating a database and a first table
+- Basic data types ('VARCHAR', 'DATE')
+- Re-running scripts safely (drop/recreate to avoid errors)
+- Adding a new column
+- 'NOT NULL' constraint and inserting sample data
+- Checking table structure with 'SHOW TABLE' / 'DESCRIBE'
 
-## Lesson 2: Adding a New Column (Gender)
-
-- Modifies the 'my_contacts' table by adding a new column: 'gender CHAR(1)'.
-- Demonstrates how table structure can be updated by dropping and recreating a table.
-- Uses 'DESC my_contacts' to inspet the updated table structure.
-
-## Lesson 3: NOT NULL Constraint and Data Insertion
-
-- Create the table with 'NOT NULL' constraints.
-- Inserts a sample record into the table, showing how to provide values for all required fields.
-- Uses 'SELECT * FROM my_contacts' to verify the inserted data.
+## Files
+- 'basic-table.sql' - creates the database (if needed) and the 'my_contacts' table + basic checks
+- 'add_gender.sql' - adds a 'gender' column and verifies the updated structure
+- 'not_null.sql' - creates a table with 'NOT NULL' constraints and inserts sample data
 
 # Technologies
 - MySQL
