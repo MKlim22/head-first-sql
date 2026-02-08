@@ -1,4 +1,4 @@
-# 01 - Table Design (Basics)
+# 01 — Table Design (Basics)
 
 Practise notes and SQL scripts focused on creating simple tables and applying basic constraints.
 
