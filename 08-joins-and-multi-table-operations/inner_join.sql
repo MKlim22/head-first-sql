@@ -32,7 +32,7 @@
 -- with the names in your schema.
 
 SELECT mc.contact_id,
-       mc.first_name,
+        mc.first_name,
        mc.last_name,
        p.profession
 FROM my_contacts AS mc
