@@ -38,6 +38,27 @@ explaining each step.
   and working with string functions.
   Includes examples of updating data using existing columns.
 
+- **06-advanced-select**
+  DISTINCT, ORDER BY, LIMIT, GROUP BY, aggregate functions, and more advanced filtering logic.
+
+- **07-multi-table-database-design**
+  Normalization (1NF, 2NF, 3NF), relationships, and designing structured relational databases.
+
+- **08-joins-and-multi-table-perations**
+  INNER JOIN, LEFT/RIGHT JOIN, NATURAL JOIN, CROSS JOIN, non-equi joins, and alias usage.
+
+- **09-subqueries**
+  Single-value subqueries, correlated and non-correlated subqueries, EXISTS, NOT EXISTS, and execution logic.
+
+- **10-outer-joins-unions**
+  LEFT/RIGHT OUTER JOIN, SELF JOIN, UNION / UNION ALL, INTERSECT, EXCEPT, and CREATE TABLE AS.
+
+- **11-views-and-transactions**
+  Creating views, updatable views, transaction control (START TRANSACTION, COMMIT, ROLLBACK), storage engines, and ACID principles.
+
+- **12-security**
+  User management, CREATE USER, GRANT, REVOKE, roles, WITH GRANT OPTION, WITH ADMIN OPTION, CASCADE vs RESTRICT, and the principle of least privilege.
+
 
 ## Technologies
 
